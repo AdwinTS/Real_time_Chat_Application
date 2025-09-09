@@ -14,6 +14,16 @@ A modern, real-time chat application that allows users to sign in, join specific
 
 ---
 
+## 📸 Screenshots
+
+| Sign-In Page | Room Selection Page | Chat Page |
+|-------------|---------------------|-----------|
+| ![Sign-In Page](path/to/signin-image.png) | ![Room Selection](path/to/room-selection-image.png) | ![Chat Page](path/to/chat-page-image.png) |
+
+> Replace `path/to/...` with your image URLs or relative paths in your repo (e.g., `./screenshots/signin.png`).
+
+---
+
 ## 💻 Technologies Used
 
 - **Frontend:** React.js  
@@ -37,8 +47,8 @@ A modern, real-time chat application that allows users to sign in, join specific
 
 1. Clone the repository  
     ```bash
-    git clone https://github.com/AdwinTS/Real_time_Chat_Application.git
-    cd Real_time_Chat_Application
+    git clone [repository-url]
+    cd [repository-name]
     ```
 
 2. Install dependencies  
@@ -87,3 +97,6 @@ Deploy your app easily using **Vercel**:
 
 ---
 
+## 📜 License
+
+MIT License © [Your Name]
