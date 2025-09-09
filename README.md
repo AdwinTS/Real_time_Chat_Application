@@ -18,9 +18,9 @@ A modern, real-time chat application that allows users to sign in, join specific
 
 | Sign-In Page | Room Selection Page | Chat Page |
 |-------------|---------------------|-----------|
-| ![Sign-In Page](path/to/signin-image.png) | <img width="1920" height="1080" alt="Image" src="https://github.com/user-attachments/assets/9477122a-e47d-4241-84a6-fe3ca1bef440" /> | ![Chat Page](path/to/chat-page-image.png) |
+| <img width="1920" height="1080" alt="Image" src="https://github.com/user-attachments/assets/c4b50046-82fd-46a3-9411-9ed99b51c319" /> | <img width="1920" height="1080" alt="Image" src="https://github.com/user-attachments/assets/9477122a-e47d-4241-84a6-fe3ca1bef440" /> |<img width="1920" height="1080" alt="Image" src="https://github.com/user-attachments/assets/10d1d302-be15-4bf1-871b-2f7254859f1b" />|
 
-> Replace `path/to/...` with your image URLs or relative paths in your repo (e.g., `./screenshots/signin.png`).
+
 
 ---
 
