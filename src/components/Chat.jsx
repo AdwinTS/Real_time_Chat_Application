@@ -10,7 +10,7 @@ import {
   orderBy,
 } from "firebase/firestore";
 
-const appId = typeof __app_id !== 'undefined' ? __app_id : VITE_FIREBASE_APP_ID;
+const appId = typeof __app_id !== 'undefined' ? __app_id : import.meta.env.VITE_FIREBASE_APP_ID;
 
 export const Chat = ({ room }) => {
   const [messages, setMessages] = useState([]);
