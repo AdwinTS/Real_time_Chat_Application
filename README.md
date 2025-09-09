@@ -47,8 +47,8 @@ A modern, real-time chat application that allows users to sign in, join specific
 
 1. Clone the repository  
     ```bash
-    git clone [repository-url]
-    cd [repository-name]
+    git clone https://github.com/AdwinTS/Real_time_Chat_Application.git
+    cd Real_time_Chat_Application
     ```
 
 2. Install dependencies  
