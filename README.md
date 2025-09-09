@@ -97,6 +97,3 @@ Deploy your app easily using **Vercel**:
 
 ---
 
-## 📜 License
-
-MIT License © [Your Name]
