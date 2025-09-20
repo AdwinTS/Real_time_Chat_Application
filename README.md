@@ -18,7 +18,7 @@ A modern, real-time chat application that allows users to sign in, join specific
 
 | Home Page || Sign-In Page | Room Selection Page | Chat Page |
 |-------------||-------------|---------------------|-----------|
-| <img width="1920" height="1080" alt="Image" src="https://github.com/user-attachments/assets/c4b50046-82fd-46a3-9411-9ed99b51c319" /> | <img width="1920" height="1080" alt="Image" src="https://github.com/user-attachments/assets/9477122a-e47d-4241-84a6-fe3ca1bef440" /> |<img width="1920" height="1080" alt="Image" src="https://github.com/user-attachments/assets/10d1d302-be15-4bf1-871b-2f7254859f1b" />|
+|<img width="1920" height="969" alt="Image" src="https://github.com/user-attachments/assets/f10cc9cb-6ef8-4a22-9f63-4104486e970b" />| <img width="1920" height="1080" alt="Image" src="https://github.com/user-attachments/assets/c4b50046-82fd-46a3-9411-9ed99b51c319" /> | <img width="1920" height="1080" alt="Image" src="https://github.com/user-attachments/assets/9477122a-e47d-4241-84a6-fe3ca1bef440" /> |<img width="1920" height="1080" alt="Image" src="https://github.com/user-attachments/assets/10d1d302-be15-4bf1-871b-2f7254859f1b" />|
 
 
 
