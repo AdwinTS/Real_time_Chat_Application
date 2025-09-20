@@ -4,8 +4,8 @@ import Cookies from "universal-cookie";
 
 const cookies = new Cookies();
 
-export const Auth = (props) => {
-  const { setIsAuth } = props;
+export const Auth = ({ setIsAuth, mode, goHome }) => {
+  //const { setIsAuth } = props;
   const signInWithGoogle = async () => {
     try {
       const result = await signInWithPopup(auth, provider);
@@ -18,6 +18,13 @@ export const Auth = (props) => {
 
   return (
     <div className="flex flex-col items-center justify-center p-8 bg-gray-800 rounded-2xl shadow-2xl space-y-6 transform transition-transform duration-300 hover:scale-105 w-full max-w-sm">
+      <button
+        onClick={goHome}
+        className="self-start mb-4 py-2 px-4 bg-gray-600 text-white rounded-lg hover:bg-gray-700 focus:outline-none focus:ring-2 focus:ring-gray-500 transition duration-200"
+      >
+        ← Back
+      </button>
+
       <h2 className="text-3xl font-extrabold text-white text-center">
         Sign In
       </h2>

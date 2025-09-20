@@ -4,12 +4,14 @@ import Cookies from "universal-cookie";
 import { Chat } from './components/Chat.jsx';
 import { signOut } from 'firebase/auth';
 import { auth } from './firebase-config.js';
+import Home from './components/Home.jsx';
 
 const cookies = new Cookies();
 
 function App() {
   const [isAuth, setIsAuth] = useState(cookies.get("auth-token"));
   const [room, setRoom] = useState(null);
+  const [showHome, setShowHome] = useState(true);
   const roomInputRef = useRef(null);
 
   const SignUserOut = async () => {
@@ -18,11 +20,18 @@ function App() {
     setIsAuth(false);
     setRoom(null);
   };
+  const goHome = () => {
+  setShowHome(true);    // Show the home page
+  setAuthMode(null);    // Reset login/signup mode
+};
+    if (showHome) {
+    return <Home onContinue={() => setShowHome(false)} />;
+  }
 
   if (!isAuth) {
     return (
       <div className="flex items-center justify-center min-h-screen bg-gray-900 text-white">
-        <Auth setIsAuth={setIsAuth} />
+        <Auth setIsAuth={setIsAuth} goHome={goHome}/>
       </div>
     );
   }
